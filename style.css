@@ -169,3 +169,34 @@ nav a:hover {
     font-size: 1.1rem;
 }
 
+.story-image {
+    flex: 1; 
+}
+
+.story-image img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--accent-color);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5); 
+}
+
+.cta-section {
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url('cta-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cta-section h2 {
+    font-size: 3rem;
+    color: var(--text-color);
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    color: #aaaaaa;
+    margin-bottom: 40px;
+}
